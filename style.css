@@ -1,0 +1,33 @@
+body {
+    background: rgb(255, 140, 197);
+}
+
+#display {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#header {
+    font-size: 40px;
+    margin: 10px;
+}
+
+#image {
+    margin: 20px;
+}
+
+#newbtn {
+    font-size: 20px;
+    background-color: rgb(255, 62, 165);
+    border: solid 2px black;
+    border-radius: 12px;
+    margin: 20px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#newbtn:hover {
+    background-color: deeppink;
+}
